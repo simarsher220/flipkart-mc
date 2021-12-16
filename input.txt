@@ -1,0 +1,28 @@
+AddItem Amul Milk 100
+AddItem Amul Curd 50
+AddItem Nestle Milk 60
+AddItem Nestle Curd 90
+AddInventory Amul Milk 10
+AddInventory Nestle Milk 15
+AddInventory Nestle Curd 10
+AddInventory Amul Milk 10
+AddInventory Amul Curd 5
+SearchItem Nestle,Amul Curd
+SearchItem Nestle Curd,Milk,Paneer
+AddUser Jhonny FlipkartBellandur,Bangalore,560068 600
+AddUser Naruto BTMLayout,Bengaluru,560042 500
+AddUser Goku VijayNagar,Indore,MP 3000
+AddToCart Jhonny Milk Nestle 5
+SearchItem Nestle Milk
+GetCart Jhonny
+UpdateItem Nestle Milk 5
+AddToCart Goku Milk Nestle 10
+GetCart Goku
+GetCart Jhonny
+AddToCart Goku Milk Nestle 10
+UpdateItem Nestle Milk 100000
+GetCart Jhonny
+Checkout Jhonny
+UpdateItem Nestle Milk 5
+Checkout Jhonny
+exit
